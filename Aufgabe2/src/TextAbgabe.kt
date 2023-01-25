@@ -1,4 +1,3 @@
-/*
 class Car {
   var color: String
   var speed: Int
@@ -23,7 +22,7 @@ class Car {
     }
   }
 }
- */
+
 /*
 Es wurde eine Klasse erstellt namens Car, mit 2 Eigenschaften color und speed.
 In der Klasse gibt es ein sekundären Konstruktor und 2 Methoden namens showOff und drive.
@@ -36,8 +35,9 @@ Mein Auto ist das coolste! Es ist Audi und 180 kmh schnell!
 Du wurdest nicht geblitzt.
  */
 
-/*
-val car = Car("Audi", 180)
-car.showOff()
-car.drive()
- */
+fun main (){
+    val car = Car("Audi", 180)
+    car.showOff()
+    car.drive()
+}
+
